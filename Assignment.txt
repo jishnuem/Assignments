@@ -1,0 +1,146 @@
+1. Define HTML?  Explain the layout of HTML?
+
+HTML stands for Hyper Text Markup Language
+
+HTML has several semantic elements
+<header> - A header for a document or a section
+<nav> - Contain set of navigation items
+<section> - A section in a document
+<article> - A independent content
+<aside> - Content in the side of document
+<footer> - It last section of the document
+
+2. Define the terms:
+·  HTML element & HTML tags
+·  HTML attributes
+·  HTML iframe
+
+HTML elements contains a start tag and an end tag
+Example : <html> <body> <h1> <p>
+
+HTML tags are like keywords which define that how web browser will format and display.
+Example : <strong> <em> <a>
+
+HTML attrinutes provide additional information about the element
+Example : charset="utf-8"
+
+An HTML iframe is used to display a web page within a web page
+The HTML <iframe> tag specifies an inline frame.
+
+3. HTML 5 VS. HTML?
+HTML
+It didn’t support audio and video without the use of flash player support.
+It uses cookies to store temporary data.
+Does not allow JavaScript to run in browser.
+Elements like nav, header were not present.
+
+HTML 5
+It supports audio and video controls with the use of <audio> and <video> tags.
+It uses SQL databases and application cache to store offline data.
+Allows JavaScript to run in background. This is possible due to JS Web worker API in HTML5.
+New element for web structure like nav, header, footer etc.
+
+4. What is SVG in HTML?
+Since SVG is written in XML, all elements must be properly closed
+
+5. Define CSS. What are its components and types?
+Cascading Style Sheet
+
+Inline CSS
+Internal or Embedded CSS
+External CSS
+
+6. Differentiate CSS box model and flex box with examples.
+CSS Box Model
+The box model has been around the longest and remains a viable approach to layout design. It relies on margins, borders, and padding to define the spacial relationships
+between UI elements. Using things like float and clear, these "boxes" of content can be aligned both vertically and horizontally on the page.
+
+CSS Flexbox
+Flexbox is a more recently released layout feature that emphasizes responsive design. Using flexbox, you can specify how elements should grow/shrink to fit different 
+screen sizes. Parent flex container divs contain flex items in either a vertical or horizontal direction.
+
+7. What is cell spacing and cell padding?
+ The cell padding attribute places spacing around data within each cell. The cell spacing attribute places space around each cell in the table. 
+
+8. What is bootstrap?
+Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites.
+
+9. Define the terms:
+	bootstrap carousel
+   	bootstrap grid system
+   	bootstrap navbar
+
+The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or 
+custom markup. It also includes support for previous/next controls and indicators
+
+The Bootstrap grid system has four classes: xs (for phones - screens less than 768px wide) sm (for tablets - screens equal to or greater than 768px wide) md 
+(for small laptops - screens equal to or greater than 992px wide) lg (for laptops and desktops - screens equal to or greater than 1200px wide)
+
+The navbar is one of the prominent features of Bootstrap sites. Navbars are responsive 'meta' components that serve as navigation headers for your application or site.
+At its core, the navbar includes styling for site names and basic navigation.
+
+10.   What is GIT? Explain the Git architecture?
+
+Git is a free and open-source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It is called 
+open-source because it provides the flexibility to modify its source code according to the user's needs
+
+11.  Difference between 1. GIT and GitHub 2. git pull and git fetch?
+
+When comparing Git pull vs fetch, Git fetch is a safer alternative because it pulls in all the commits from your remote but doesn't make any changes to your local files.
+Git fetch is a bit different; you can use the Git fetch command to see all of the remote's changes without applying them.
+
+12.  What is java script? List its features.
+
+JavaScript is a dynamic computer programming language. It is lightweight and most commonly used as a part of web pages, whose implementations allow client-side script to 
+interact with the user and make dynamic pages. It is an interpreted programming language with object-oriented capabilities.
+
+13.  What is the difference between Local storage & Session storage?
+
+sessionStorage is similar to localStorage, the difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends.
+Whenever a document is loaded in a particular tab in the browser, a unique page session gets created and assigned to that particular tab.
+
+14.  What is 'this' keyword in JavaScript?
+
+The JavaScript this keyword refers to the object it belongs to. Alone, this refers to the global object. In a function, this refers to the global object. In a function
+in strict mode, this is undefined . In an event, this refers to the element that received the event.
+
+15.   What are all types of Pop-up boxes available in JavaScript?
+
+There are three types of pop up boxes in JavaScript namely Alert Box, Confirm Box and Prompt Box.
+
+16.  What is the difference between === operator and == operator? Explain with an example.
+
+The ‘==’ operator tests for abstract equality . it does the necessary type conversions before doing the equality comparison.
+But the ‘===’ operator tests for strict equality i.e it will not do the type conversion hence if the two values are not of the same type, when compared, it will return 
+false.
+
+17.  Explain what is pop () and push () method in JavaScript?
+The push operation places an element at the top of stack whereas the pop operation removes an element from the top of the stack.
+
+18.    Explain try n catch concept in java string using examples.
+
+The try statement allows you to define a block of code to be tested for errors while it is being executed. The catch statement allows you to define a block of code to be
+ executed, if an error occurs in the try block.
+
+19.  Explain error and exception handling with examples.
+Error : An Error “indicates serious problems that a reasonable application should not try to catch.” Both Errors and Exceptions are the subclasses of java. lang. 
+Throwable class. Errors are the conditions which cannot get recovered by any handling techniques.
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
